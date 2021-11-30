@@ -1,0 +1,169 @@
+.contactList{
+    width: 25.5%;
+    height: 60%;
+    margin-top: 8%;
+    border-radius: 3.8%;
+    margin-left: 33%;
+    background-color:gray;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto;
+    padding: 10px;
+    position: absolute;
+    overflow:auto;
+    overscroll-behavior: contain;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  .inputStyle{
+    width: 76%;
+    padding: 22px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    outline:none;
+    text-align: center;
+    font-size: medium;
+  }
+
+.formclass{
+    margin-top:-10%;
+}
+
+  .submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 74px;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .contactList{
+      width: 69.5%;
+      height: 71%;
+      margin-top: 20%;
+      border-radius: 3.8%;
+      margin-left: 10%;
+      background-color:gray;
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: auto;
+      padding: 10px;
+      position: absolute;
+      overflow:auto;
+      overscroll-behavior: contain;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+  
+    .inputStyle{
+      width: 76%;
+      padding: 12px 20px;
+      margin: 15px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 14px;
+      box-sizing: border-box;
+      outline:none;
+      text-align: center;
+    }
+  
+    .submit{
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 50%;
+      border-radius: 74px;
+    }
+  
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+
+
+
+  }
+
+
+  @media only screen and (min-width:500px) and (max-width:1250px) {
+ 
+    .contactList{
+      width: 55.5%;
+      height: 51%;
+      margin-top: 22%;
+      border-radius: 3.8%;
+      margin-left: 22%;
+      background-color:gray;
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: auto;
+      padding: 10px;
+      position: absolute;
+      overflow:auto;
+      overscroll-behavior: contain;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+  
+    .inputStyle{
+      width: 76%;
+      padding: 12px 20px;
+      margin: 15px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 14px;
+      box-sizing: border-box;
+      outline:none;
+      text-align: center;
+    }
+  
+    .submit{
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 50%;
+      border-radius: 74px;
+    }
+  
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+
+  }
+ 

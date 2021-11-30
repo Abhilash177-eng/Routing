@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Signup": [
+    {
+      "name": "Abhilash",
+      "email": "abhil9410@gmail.com",
+      "password": "12345",
+      "role": "super-admin",
+      "id": 1
+    },
+    {
+      "name": "R9",
+      "email": "ronaldo9@gmail.com",
+      "password": "9801",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "name": "Steven Gerrad",
+      "email": "steveg@gmail.com",
+      "password": "stevexyz",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "name": "str",
+      "email": "str@gmail.com",
+      "password": "str",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "name": "Yogesh",
+      "email": "yogesh@gmail.com",
+      "password": "123",
+      "role": "super-admin",
+      "id": 5
+    }
+  ]
+}

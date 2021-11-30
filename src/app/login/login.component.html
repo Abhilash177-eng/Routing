@@ -1,0 +1,11 @@
+<div class="contactList">
+    <h2>LOGIN </h2>
+    <form [formGroup]="userInput" (ngSubmit)="validateData()" class="formclass">
+        <input  class="inputStyle" type="text" placeholder="email" formControlName="email" required/>    
+        <br> <br>
+        <input class="inputStyle" type="text" placeholder="password" formControlName="password" required/>
+        <button class="submit" type="submit">Login</button>
+    </form>
+    
+    <a routerLink="/signup"> Dont have a account? Create one </a>
+</div>

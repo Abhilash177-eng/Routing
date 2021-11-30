@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li routerLink="/login"><a>Login</a></li>
+        <li *ngIf="role=='user'||role=='admin'||role=='super-admin'"><a href="#">View Invoice</a></li>
+        <li *ngIf="role=='admin'||role=='super-admin'"><a href="#">Create Invoice</a></li>
+        <li *ngIf="role=='super-admin'"><a href="#">Update Invoice</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<div *ngIf="role=='super-admin'">
+<p> Welcome super admin </p>
+</div>
+
+<div *ngIf="role=='user'">
+    <p> Welcome user </p>
+    </div>
+
+    <div *ngIf="role=='admin'">
+        <p> Welcome admin </p>
+        </div>    

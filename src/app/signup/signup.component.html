@@ -1,0 +1,15 @@
+<div class="contactList">
+    <h2> Sign Up </h2>
+    <form [formGroup]="userDetail" (ngSubmit)="validateData()" style="margin-top:-20%;">
+        <input  class="inputStyle" type="text" placeholder="name" formControlName="name" required/>
+        <br> <br>
+        <input class="inputStyle" type="text" placeholder="email" formControlName="email" required/>
+        <br> <br>
+        <input  class="inputStyle" type="text" placeholder="password" formControlName="password" required/>
+        <br> <br>
+        <input class="inputStyle"  type="text" placeholder="role" formControlName="role" required/>
+        <br> <br>
+        <button class="submit" type="submit">Submit</button>
+    </form>
+    
+</div>
